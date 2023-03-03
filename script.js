@@ -10,7 +10,7 @@ function add(){
     let li = document.createElement('li');
     li.innerText = textInputic;
      input.value = "";
-    let ul = document.querySelector('ul');
+    let ul = document.querySelector('ul')
     ul.appendChild(li);
     
 }
